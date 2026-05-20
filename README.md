@@ -4,13 +4,20 @@ Command-line interface for the Cloud World Model simulation API.
 
 ## Installation
 
-From the project root, build and link the CLI:
+Install globally from GitHub:
+
+```bash
+npm install -g "github:canvascloudai/cwm-cli"
+cwm --help
+```
+
+Or build from the project root (contributors / local dev):
 
 ```bash
 npm run build:cli
 # Then use via node:
 node cli/dist/index.cjs --help
-# Or install globally:
+# Or link globally:
 npm install -g ./cli
 cwm --help
 ```
